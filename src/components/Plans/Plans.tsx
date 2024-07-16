@@ -22,7 +22,7 @@ export function Plans() {
             component: <Road />
         },
         {
-            text: "Строительство новых спортивных площадок и игровых",
+            text: "Строительство новых спортивных и игровых площадок",
             component: <Ball />
         },
         {
@@ -30,11 +30,11 @@ export function Plans() {
             component: <Trash />
         },
         {
-            text: "Реставрация Раритетных зданий",
+            text: "Создание новых рабочих мест",
             component: <Tools />
         },
         {
-            text: "Забота о пожилых и стариках",
+            text: "Забота о пожилых людях",
             component: <OldPerson />
         },
         {
