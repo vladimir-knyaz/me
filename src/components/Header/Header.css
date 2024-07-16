@@ -12,8 +12,12 @@ header {
     color: white;
 }
 
+
+.items-header a:hover {
+    text-decoration: underline;
+}
+
 .items-header {
-    height: 150px;
     display: flex;
     align-items: center;
     gap: 50px;
@@ -25,8 +29,11 @@ header {
         display: none;
     }
 
+    .items-header {
+        gap: 16px;
+    }
 
     header {
-        font-size: 16px;
+        font-size: 14px;
     }
 }
