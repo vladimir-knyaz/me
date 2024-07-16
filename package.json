@@ -2,7 +2,7 @@
   "name": "vite-project",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://vladimir-knyaz.github.io/me",
+  "homepage": "https://vladimir-knyaz.github.io/me/",
   "type": "module",
   "scripts": {
     "dev": "vite",
