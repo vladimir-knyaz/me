@@ -16,16 +16,16 @@ export function Questions() {
     const PUBLIC_KEY: string = "QE2OZr0p4_3jGVqav";
 
 
-    const sendEmail = (e) => {
+    const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
 
         emailjs
-            .sendForm(SERVICE_ID, TEMPLATE_ID, e.target, {
+            .sendForm(SERVICE_ID, TEMPLATE_ID, e.target as HTMLFormElement, {
                 publicKey: PUBLIC_KEY,
             })
             .then(
                 () => {
-                    e.target.reset();
+                    (e.target as HTMLFormElement).reset();
                     setSuccess();
                 },
                 (error) => {
@@ -51,7 +51,6 @@ export function Questions() {
                             <input type="text" name="email_from" id="emailFrom" placeholder="Ваш почтовый ящик"/>
                             <br/>
                             <textarea
-                                type="text"
                                 name="message"
                                 id="message"
                                 placeholder="Ваш вопрос"

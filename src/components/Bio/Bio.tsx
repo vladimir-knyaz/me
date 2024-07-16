@@ -1,5 +1,4 @@
 import './Bio.css';
-import vladimir from '../../assets/vladimir.jpg';
 
 export function Bio() {
     return (
@@ -10,7 +9,7 @@ export function Bio() {
                 <h4 className="text-center">Князев Владимир Сергеевич</h4>
                 <h1 className="text-center">09.10.2009</h1>
                     <div className="d-flex justify-content-center mt-4">
-                        <img src={vladimir} alt="Моя фотография" className="bio-img" />
+                        <img src="https://i.imgur.com/pTVETh8.jpeg" alt="Моя фотография" className="bio-img" />
                     </div>
                     <div className="bio-block mt-5">
                         <h5 className="text-center my-text">Я ученик МБОУ гимназии №3 г.Грязи. Занимаюсь волейболом,

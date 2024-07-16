@@ -1,5 +1,4 @@
-import gerb_rf from '../../assets/gerb_rf.png';
-import gerb from '../../assets/gerb.png';
+
 import './Header.css';
 
 export function Header(){
