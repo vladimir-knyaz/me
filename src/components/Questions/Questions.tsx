@@ -39,7 +39,7 @@ export function Questions() {
         <>
             <form id="questions" className="d-flex justify-content-center mt-5" onSubmit={sendEmail}>
                 <div>
-                    <h2 className="text-center title">Вопросы</h2>
+                    <h2 className="text-center title mt-5">Вопросы</h2>
                     <div className="text-container">
                         <div className="helper-container">
                             <p className="text-center helper">Здесь вы можете написать свой вопрос, на который мы
