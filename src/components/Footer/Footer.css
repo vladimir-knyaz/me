@@ -1,0 +1,56 @@
+footer {
+    background: #272727;
+    padding: 15px 0;
+}
+
+.title-footer-year {
+    font-weight: bolder;
+}
+
+.footer-container {
+    height: 250px;
+}
+
+.footer-list {
+    font-size: 25px;
+}
+
+.link-footer {
+    color: #000000;
+}
+
+.link-footer svg {
+    display: flex;
+    justify-content: center;
+    height: 45px;
+    align-items: center;
+    width: 45px;
+    border-radius: 10px;
+    transition: 0.2s ease-in-out;
+}
+
+.phone {
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.helper-phone {
+    color: #b0b0b0;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.link-footer svg:hover {
+    transform: scale(1.08);
+}
+
+@media screen and (max-width: 768px) {
+    .title-footer {
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    .footer-list {
+        margin-top: 25px;
+    }
+}

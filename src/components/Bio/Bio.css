@@ -1,0 +1,39 @@
+.bio {
+    height: 100%;
+    border-radius: 15px;
+    padding: 25px;
+}
+.bio-img {
+    height: 420px;
+    width: 350px;
+    border-radius: 15px;
+    transition: 0.4s;
+}
+.bio-img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.bio-wrapper {
+    width: 30%;
+}
+
+.my-text {
+    font-size: 25px;
+}
+
+@media (max-width: 768px) {
+    .bio-block {
+        width: 100%;
+    }
+
+    .container-bio-img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .bio-wrapper {
+        width: 100%;
+    }
+
+}

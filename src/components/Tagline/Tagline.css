@@ -1,0 +1,33 @@
+.tagline-block {
+    width: 100%;
+    height: 750px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.tagline-text {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    text-transform: uppercase;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 60px;
+}
+
+.container-tagline {
+    position: relative;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .tagline-text {
+        font-size: 34px;
+        width: 72%;
+        left: 67%;
+    }
+    .tagline-block {
+        height: 260px;
+    }
+}

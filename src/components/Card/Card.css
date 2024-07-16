@@ -1,0 +1,28 @@
+
+.card-img {
+    height: 150px;
+    width: 150px;
+}
+
+.card-container {
+    height: 150px;
+    padding: 0 25px;
+    width: 40%;
+    display: flex;
+    border-radius: 15px;
+    align-items: center;
+    background-color: #fff;
+    color: black;
+}
+
+.card-container p {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+
+@media screen and (max-width: 768px) {
+    .card-container {
+        width: 100%;
+    }
+}
