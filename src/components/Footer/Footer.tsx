@@ -7,7 +7,7 @@ export function Footer() {
         <footer className="mt-5">
             <div className="main-container footer-container d-xl-flex justify-content-evenly align-items-center">
 
-                <div>
+                <div className="d-xl-block d-none">
                     <h1 className="title-footer">
                         Князев
                     </h1>
@@ -19,6 +19,16 @@ export function Footer() {
                     </h1>
                     <h1 className="title-footer-year">2024</h1>
                 </div>
+
+                <div className="d-xl-none d-flex">
+                    <h1 className="title-footer">
+                        Князев
+                        Владимир
+                        Сергеевич
+                    </h1>
+                </div>
+                <h1 className="title-footer-year d-xl-none d-block">2024</h1>
+
                 <ul className="footer-list mx-0">
                     <div className="d-flex gap-3">
                         <li>
